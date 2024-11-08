@@ -22,5 +22,14 @@ else:
 
 
 
+number3 = str(input('введите число:')) # по аналогии сделано сумма первого и последнего цифры из числа
 
+z = number3[-1].isdigit()
+k = number3[0].isdigit()
+
+if z and k:
+    digit4 = int(number3[0])
+    digit3 = int(number3[-1])
+
+print(digit3 + digit4)
 
