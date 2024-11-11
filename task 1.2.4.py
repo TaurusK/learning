@@ -2,18 +2,18 @@
 # Задача 1.2 №4 Дано число. Выведите количество цифр в этом числе.
 """ задача не завершена. делаю на основепредыщего материала"""
 
-"""number3 = str(input('введите число:')) # по аналогии сделано сумма первого и последнего цифры из числа
 
-z = number3[-1].isdigit()
-k = number3[0].isdigit()
+number3 = str(input('введите число:'))
+'''добавить проверку строки на цыфры и буквы'''
 
-if z and k:
-    digit4 = int(number3[0])
-    digit3 = int(number3[-1])
-
-print(digit3 + digit4)
+if  number3.isalnum():
+    print(len(number3))
+else:
+    print('none')
 
 
-x = 143
-print(x[0])
-"""
+"""if z:
+    digit3 = int(number3[])
+        print(len(digit3)"""
+
+
